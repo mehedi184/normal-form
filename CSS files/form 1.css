@@ -1,0 +1,11 @@
+*{
+    margin: 0% 30% 0% 20%;
+    padding: 0% 10% 10% 5%;
+}
+body{
+    background-image: url(/Forms/memory/pictures/students-taking-an-exam.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document from guess</title>
+    <link rel="stylesheet" href="/Forms/memory/CSS files/form 1.css">
+</head>
+<body>
+    <form action="/Forms/memory/html files/result.html" method="get" enctype="multipart/form-data">
+        First Name: 
+        <input type="text " name=" name" required>
+        Middle Name: 
+        <input type="text " name=" name" >
+        Last Name: 
+        <input type="text " name=" name" required>
+        <br>
+        ID: <input type="number " name=" ID" required>
+        <br>
+        Email: <input type="email" name="email" required>
+        <br>
+        Date of Birth : <input type="date" name="date" id="Date" max="2021-10-21">
+        <br>
+        Age: <input type="number" name="age" id="age" min="1" max= "150" required>
+        <br>
+        Gender: <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br>
+        City:
+        <Select name="City" id="City" >
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittgram">Chittgram</option>
+            <option value="St. Martin">St.Martin</option>
+        </Select>
+        <br>
+        Phone: <input type="tel" name="phone" id="cell">
+        <br>
+        File: <input type="file" name="file" id="file" required>
+        <br>
+        Username: <input type="text" name="Name" id="name" required>
+        <br>
+        Password: <input type="password" name="password" id="password" required>
+        <br>
+        URL: <input type="url" name="URL" id="url">
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
