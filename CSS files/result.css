@@ -9,7 +9,7 @@ h4{
     padding: 0% 0% 0% 30%;
 }
 body{
-    background-image: url(/Forms/memory/pictures/pic.jpg);
+    background-image: url("/pictures/pic.jpg");
     background-size: border-box;
     background-attachment: fixed;
 }
